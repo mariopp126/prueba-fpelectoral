@@ -4,7 +4,7 @@ var app = express();
 var PORT = 3000;
 
 // With middleware
-app.use('/', function(req, res, next){
+app.get('/', function(req, res, next){
 	
 	var options = {
 		root: path.join(__dirname)
