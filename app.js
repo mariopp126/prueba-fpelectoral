@@ -10,7 +10,7 @@ app.get('/', function(req, res, next){
 		root: path.join(__dirname)
 	};
 	
-	var fileName = 'index.html';
+	var fileName = 'pages/index.html';
 	res.sendFile(fileName, options, function (err) {
 		if (err) {
 			next(err);
