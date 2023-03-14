@@ -21,10 +21,10 @@ app.get('/', function(req, res, next){
 	});
 });
 
-/* app.get('/', function(req, res){
+app.get('/', function(req, res){
 	console.log("File Sent")
 	res.send();
-}); */
+});
 
 app.listen(PORT, function(err){
 	if (err) console.log(err);
